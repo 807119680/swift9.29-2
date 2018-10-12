@@ -7,6 +7,11 @@
 //
 
 import Foundation
+var a = [Int](repeating: 1, count: 100)
+    for index in 1..<100
+{
+    a[index] = Int(arc4random_uniform(100))+1
+    print(index)
+}
 
-print("Hello, World!")
 
